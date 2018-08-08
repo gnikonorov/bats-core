@@ -1,7 +1,7 @@
 .\" generated with Ronn/v0.7.3
 .\" http://github.com/rtomayko/ronn/tree/0.7.3
 .
-.TH "BATS" "1" "July 2018" "" ""
+.TH "BATS" "1" "August 2018" "" ""
 .
 .SH "NAME"
 \fBbats\fR \- Bash Automated Testing System
@@ -34,6 +34,10 @@ To run your tests, invoke the \fBbats\fR interpreter with a path to a test file\
 You can invoke the \fBbats\fR interpreter with multiple test file arguments, or with a path to a directory containing multiple \fB\.bats\fR files\. Bats will run each test file individually and aggregate the results\. If any test case fails, \fBbats\fR exits with a \fB1\fR status code\.
 .
 .SH "OPTIONS"
+.
+.TP
+\fB\-b\fR, \fB\-\-benchmark\fR
+Time the execution of the entire test suite
 .
 .TP
 \fB\-c\fR, \fB\-\-count\fR

@@ -47,6 +47,8 @@ test case fails, `bats` exits with a `1` status code.
 OPTIONS
 -------
 
+  * `-b`, `--benchmark`:
+    Time the execution of the entire test suite
   * `-c`, `--count`:
     Count the number of test cases without running any tests
   * `-f`, `--filter`:
